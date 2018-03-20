@@ -29,7 +29,7 @@ def get_args():
         "--path",
         dest="path",
         help="custom path to search duplicates",
-        default="default-path"
+        default="default"
     )
     return parser.parse_args()
 
