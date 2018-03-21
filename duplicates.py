@@ -18,10 +18,9 @@ def print_duplicates(duplicates):
     if duplicates:
         for paths in duplicates:
             print("Found coincidence between files:")
-            for path in paths:
-                print(path)
+            print('\n'.join(paths));
     else:
-        print('No coincidence found.')
+        print("No coincidence found.")
 
 
 def get_args():
